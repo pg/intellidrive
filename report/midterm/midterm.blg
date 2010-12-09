@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: /Users/shaz/Documents/Code/UIUC/disk_machine_learning/trunk/report/midterm/midterm.aux
+The style file: acm.bst
+Database file #1: ./midterm.bib
+Name 1 in "Ramakrishna Karedla, J. Spencer Love, and Bradley G. Wherry" has a comma at the end for entry CachingStrategies
+while executing---line 1086 of file acm.bst
+Name 1 in "Knut Stener Grimsrud, James K. Archibald, and Brent E. Nelson" has a comma at the end for entry MultiplePrefetch
+while executing---line 1086 of file acm.bst
+Name 1 in "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" has a comma at the end for entry DiskSimManual
+while executing---line 1086 of file acm.bst
+Too many commas in name 1 of "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" for entry DiskSimManual
+while executing---line 1086 of file acm.bst
+Name 1 in "Wiebren de Jonge, M. Frans Kaashoek, and Wilson C Hsieh" has a comma at the end for entry LogicalDisk
+while executing---line 1086 of file acm.bst
+Name 1 in "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" has a comma at the end for entry DiskSimManual
+while executing---line 1127 of file acm.bst
+Too many commas in name 1 of "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" for entry DiskSimManual
+while executing---line 1127 of file acm.bst
+Name 1 in "Knut Stener Grimsrud, James K. Archibald, and Brent E. Nelson" has a comma at the end for entry MultiplePrefetch
+while executing---line 1127 of file acm.bst
+Name 1 in "Ramakrishna Karedla, J. Spencer Love, and Bradley G. Wherry" has a comma at the end for entry CachingStrategies
+while executing---line 1127 of file acm.bst
+Name 1 in "Wiebren de Jonge, M. Frans Kaashoek, and Wilson C Hsieh" has a comma at the end for entry LogicalDisk
+while executing---line 1127 of file acm.bst
+You've used 8 entries,
+            2253 wiz_defined-function locations,
+            575 strings with 5363 characters,
+and the built_in function-call counts, 1867 in all, are:
+= -- 170
+> -- 86
+< -- 0
++ -- 36
+- -- 28
+* -- 120
+:= -- 335
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 37
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 76
+empty$ -- 157
+format.name$ -- 28
+if$ -- 378
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 9
+newline$ -- 43
+num.names$ -- 16
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 40
+swap$ -- 16
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 30
+warning$ -- 0
+while$ -- 16
+width$ -- 9
+write$ -- 75
+(There were 10 error messages)

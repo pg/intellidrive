@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/64/trunk/code/Intellidrive/src/com/intellidrive/optimizer
+END
+AccessLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sp09/disk_machine_learning/!svn/ver/48/trunk/code/Intellidrive/src/com/intellidrive/optimizer/AccessLog.java
+END
+BlockMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/sp09/disk_machine_learning/!svn/ver/27/trunk/code/Intellidrive/src/com/intellidrive/optimizer/BlockMap.java
+END
+DriveOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/sp09/disk_machine_learning/!svn/ver/61/trunk/code/Intellidrive/src/com/intellidrive/optimizer/DriveOptimizer.java
+END
+PrecacheBoundaryMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sp09/disk_machine_learning/!svn/ver/27/trunk/code/Intellidrive/src/com/intellidrive/optimizer/PrecacheBoundaryMap.java
+END

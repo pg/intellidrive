@@ -1,0 +1,38 @@
+\relax 
+\citation{CachingStrategies}
+\citation{MultiplePrefetch}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Design}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}System Architecture}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Intellidrive System Architecture}}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Block Device Driver}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Logical to Physical Block Mapping}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Precache Boundaries}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Device Access Logging}{2}}
+\citation{GeneticAlgorithm}
+\citation{GAlib}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Example Logging Data Structures}}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Drive Optimization}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Genetic Algorithm Combination}}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Current Status}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation Plan}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experiments}{4}}
+\citation{MultiplePrefetch}
+\citation{MultiplePrefetch}
+\citation{DiskSimManual}
+\citation{Loge}
+\citation{LogicalDisk}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Results to be expected}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Related Work}{5}}
+\citation{AdaptiveBlock}
+\bibstyle{acm}
+\bibdata{./midterm}
+\bibcite{AdaptiveBlock}{1}
+\bibcite{Loge}{2}
+\bibcite{DiskSimManual}{3}
+\bibcite{MultiplePrefetch}{4}
+\bibcite{GeneticAlgorithm}{5}
+\bibcite{CachingStrategies}{6}
+\bibcite{GAlib}{7}
+\bibcite{LogicalDisk}{8}

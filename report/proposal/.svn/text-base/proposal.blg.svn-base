@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: /Users/shaz/Documents/Code/UIUC/disk_machine_learning/trunk/report/proposal/proposal.aux
+The style file: acm.bst
+Database file #1: ./proposal.bib
+Name 1 in "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" has a comma at the end for entry DiskSimManual
+while executing---line 1086 of file acm.bst
+Too many commas in name 1 of "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" for entry DiskSimManual
+while executing---line 1086 of file acm.bst
+Name 1 in "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" has a comma at the end for entry DiskSimManual
+while executing---line 1127 of file acm.bst
+Too many commas in name 1 of "John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors" for entry DiskSimManual
+while executing---line 1127 of file acm.bst
+Warning--empty journal in DiskSimManual
+You've used 1 entry,
+            2253 wiz_defined-function locations,
+            533 strings with 4274 characters,
+and the built_in function-call counts, 231 in all, are:
+= -- 20
+> -- 12
+< -- 0
++ -- 5
+- -- 4
+* -- 14
+:= -- 49
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 8
+empty$ -- 14
+format.name$ -- 4
+if$ -- 41
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 7
+num.names$ -- 2
+pop$ -- 5
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 9
+(There were 4 error messages)

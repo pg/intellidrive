@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{AdaptiveBlock}
+{\sc Akyurek, S., and Salem, K.}
+\newblock {Adaptive Block Rearrangement Under UNIX}.
+\newblock {\em Proceedings of USENIX Summer Technical Conference, June, 1993\/}
+  (February 1994).
+
+\bibitem{Loge}
+{\sc English, R.~M., and Stepanov, A.~A.}
+\newblock {Loge: a self-organizing disk controller}.
+\newblock {\em Proceedings of USENIX Winter 1992 Technical Conference\/}
+  (January 1992).
+
+\bibitem{MultiplePrefetch}
+{\sc Knut Stener~Grimsrud, J. K.~A., and Nelson, B.~E.}
+\newblock {Multiple Prefetch Adaptive Disk Caching}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering\/} (February
+  1993).
+
+\bibitem{GeneticAlgorithm}
+{\sc Mitchell, T.~M.}
+\newblock {\em {Machine Learning}}.
+\newblock McGraw-Hill, March 1997.
+
+\bibitem{CachingStrategies}
+{\sc Ramakrishna~Karedla, J. S.~L., and Wherry, B.~G.}
+\newblock {Caching Strategies to Improve Disk System Performance}.
+\newblock {\em IEEE Computer\/} (March 1994).
+
+\bibitem{GAlib}
+{\sc Wall, M.}
+\newblock {GAlib: A C++ Library of Genetic Algorithm Components}.
+\newblock {\em MIT\/} (August 1996).
+
+\bibitem{LogicalDisk}
+{\sc Wiebren~de Jonge, M. F.~K., and Hsieh, W.~C.}
+\newblock {The Logical Disk: A New Approach to Improving File System}.
+\newblock {\em Proceedings of the Fourteenth ACM Symposium on Operating Systems
+  Principles\/} (May 1993).
+
+\end{thebibliography}

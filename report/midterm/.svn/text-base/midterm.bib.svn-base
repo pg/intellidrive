@@ -1,0 +1,48 @@
+@article{DiskSimManual,
+  author =	 {John S. Bucy, Jiri Schindler, Steven W. Schlosser, Gregory R. Ganger, and Contributors},
+  title =	 {{The DiskSim Simulation Environment Version 4.0 Reference Manual}},
+  year =	 {May 2008},
+  journal =	 {Parallel Data Laboratory, Carnegie Mellon University},
+}
+@article{MultiplePrefetch,
+  author =	 {Knut Stener Grimsrud, James K. Archibald, and Brent E. Nelson},
+  title =	 {{Multiple Prefetch Adaptive Disk Caching}},
+  year =	 {February 1993},
+  journal =	 {IEEE Transactions on Knowledge and Data Engineering},
+}
+@Book{GeneticAlgorithm,
+  author =	 {Tom M. Mitchell},
+  title =	 {{Machine Learning}},
+  year =	 {March 1997},
+  publisher =	 {McGraw-Hill},
+}
+@article{GAlib,
+  author =	 {Matthew Wall},
+  title =	 {{GAlib: A C++ Library of Genetic Algorithm Components}},
+  year =	 {August 1996},
+  journal =	 {MIT},
+}
+@article{AdaptiveBlock,
+  author =	 {Sedat Akyurek and Kenneth Salem},
+  title =	 {{Adaptive Block Rearrangement Under UNIX}},
+  year =	 {February 1994},
+  journal =	 {Proceedings of USENIX Summer Technical Conference, June, 1993},
+}
+@article{Loge,
+  author =	 {Robert M. English and Alexander A. Stepanov},
+  title =	 {{Loge: a self-organizing disk controller}},
+  year =	 {January 1992},
+  journal =	 {Proceedings of USENIX Winter 1992 Technical Conference},
+}
+@article{CachingStrategies,
+  author =	 {Ramakrishna Karedla, J. Spencer Love, and Bradley G. Wherry},
+  title =	 {{Caching Strategies to Improve Disk System Performance}},
+  year =	 {March 1994},
+  journal =	 {IEEE Computer},
+}
+@article{LogicalDisk,
+  author =	 {Wiebren de Jonge, M. Frans Kaashoek, and Wilson C Hsieh},
+  title =	 {{The Logical Disk: A New Approach to Improving File System}},
+  year =	 {May 1993},
+  journal =	 {Proceedings of the Fourteenth ACM Symposium on Operating Systems Principles},
+}

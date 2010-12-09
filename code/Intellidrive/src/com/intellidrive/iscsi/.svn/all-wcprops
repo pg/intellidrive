@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/29/trunk/code/Intellidrive/src/com/intellidrive/iscsi
+END
+MemoryBlockDeviceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/sp09/disk_machine_learning/!svn/ver/27/trunk/code/Intellidrive/src/com/intellidrive/iscsi/MemoryBlockDeviceController.java
+END
+IntellidriveBlockDeviceController.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sp09/disk_machine_learning/!svn/ver/29/trunk/code/Intellidrive/src/com/intellidrive/iscsi/IntellidriveBlockDeviceController.java
+END
+IntellidriveISCSITarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/sp09/disk_machine_learning/!svn/ver/29/trunk/code/Intellidrive/src/com/intellidrive/iscsi/IntellidriveISCSITarget.java
+END

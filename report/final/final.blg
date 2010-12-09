@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
+The top-level auxiliary file: final.aux
+The style file: acm.bst
+Database file #1: ./final.bib
+Name 1 in "Ramakrishna Karedla, J. Spencer Love, and Bradley G. Wherry" has a comma at the end for entry CachingStrategies
+while executing---line 1086 of file acm.bst
+Name 1 in "Knut Stener Grimsrud, James K. Archibald, and Brent E. Nelson" has a comma at the end for entry MultiplePrefetch
+while executing---line 1086 of file acm.bst
+Name 1 in "Wiebren de Jonge, M. Frans Kaashoek, and Wilson C Hsieh" has a comma at the end for entry LogicalDisk
+while executing---line 1086 of file acm.bst
+Name 1 in "Knut Stener Grimsrud, James K. Archibald, and Brent E. Nelson" has a comma at the end for entry MultiplePrefetch
+while executing---line 1127 of file acm.bst
+Name 1 in "Ramakrishna Karedla, J. Spencer Love, and Bradley G. Wherry" has a comma at the end for entry CachingStrategies
+while executing---line 1127 of file acm.bst
+Name 1 in "Wiebren de Jonge, M. Frans Kaashoek, and Wilson C Hsieh" has a comma at the end for entry LogicalDisk
+while executing---line 1127 of file acm.bst
+You've used 7 entries,
+            2253 wiz_defined-function locations,
+            569 strings with 4970 characters,
+and the built_in function-call counts, 1630 in all, are:
+= -- 148
+> -- 74
+< -- 0
++ -- 31
+- -- 24
+* -- 104
+:= -- 293
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 32
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 67
+empty$ -- 138
+format.name$ -- 24
+if$ -- 330
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 38
+num.names$ -- 14
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 26
+quote$ -- 0
+skip$ -- 42
+stack$ -- 0
+substring$ -- 35
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 26
+warning$ -- 0
+while$ -- 14
+width$ -- 8
+write$ -- 66
+(There were 6 error messages)

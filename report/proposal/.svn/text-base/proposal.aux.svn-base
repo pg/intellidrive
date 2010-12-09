@@ -1,0 +1,9 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Timeline}{1}}
+\citation{DiskSimManual}
+\bibstyle{acm}
+\bibdata{./proposal}
+\bibcite{DiskSimManual}{1}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Anticipated Results}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation Plan}{2}}

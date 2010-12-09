@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sp09/disk_machine_learning/!svn/ver/64/trunk/code/Intellidrive/src/com/intellidrive/optimizer/genetic
+END
+Organism.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/sp09/disk_machine_learning/!svn/ver/27/trunk/code/Intellidrive/src/com/intellidrive/optimizer/genetic/Organism.java
+END
+Population.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/sp09/disk_machine_learning/!svn/ver/27/trunk/code/Intellidrive/src/com/intellidrive/optimizer/genetic/Population.java
+END
+GeneticDriveOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sp09/disk_machine_learning/!svn/ver/64/trunk/code/Intellidrive/src/com/intellidrive/optimizer/genetic/GeneticDriveOptimizer.java
+END

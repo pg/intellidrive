@@ -1,0 +1,479 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga
+END
+GAEvalData.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAEvalData.h
+END
+GABaseGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABaseGA.h
+END
+GADemeGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GADemeGA.h
+END
+GA3DBinStrGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA3DBinStrGenome.h
+END
+GADCrowdingGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GADCrowdingGA.C
+END
+GATreeBASE.C
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATreeBASE.C
+END
+GAStatistics.C
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAStatistics.C
+END
+gabincvt.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gabincvt.h
+END
+GAAllele.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAAllele.C
+END
+GATreeGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATreeGenome.h
+END
+GAPopulation.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAPopulation.h
+END
+GA2DArrayGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA2DArrayGenome.C
+END
+GABin2DecGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABin2DecGenome.C
+END
+GAListBASE.C
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAListBASE.C
+END
+GAListGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAListGenome.h
+END
+GASStateGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASStateGA.h
+END
+GA1DBinStrGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA1DBinStrGenome.C
+END
+GAIncGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAIncGA.C
+END
+GASelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASelector.h
+END
+GAParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAParameter.h
+END
+garandom.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/garandom.h
+END
+GA2DBinStrGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA2DBinStrGenome.h
+END
+gaerror.C
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gaerror.C
+END
+GADCrowdingGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GADCrowdingGA.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/ChangeLog
+END
+GATreeBASE.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATreeBASE.h
+END
+GAStatistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAStatistics.h
+END
+GASimpleGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASimpleGA.C
+END
+GABinStr.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABinStr.C
+END
+gaid.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gaid.h
+END
+std_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/std_stream.h
+END
+GAAllele.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAAllele.h
+END
+GA2DArrayGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA2DArrayGenome.h
+END
+GABin2DecGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABin2DecGenome.h
+END
+GAGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAGenome.C
+END
+gaconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gaconfig.h
+END
+makefile.bcc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/makefile.bcc
+END
+GAListBASE.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAListBASE.h
+END
+GAScaling.C
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAScaling.C
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/makefile
+END
+GA1DBinStrGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA1DBinStrGenome.h
+END
+GAIncGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAIncGA.h
+END
+GANode.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GANode.h
+END
+GA1DArrayGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA1DArrayGenome.C
+END
+gaerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gaerror.h
+END
+GATree.C
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATree.C
+END
+GAMask.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAMask.h
+END
+GA3DArrayGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA3DArrayGenome.C
+END
+GAStringGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAStringGenome.C
+END
+GASimpleGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASimpleGA.h
+END
+GABinStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABinStr.h
+END
+GAList.C
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAList.C
+END
+GARealGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GARealGenome.C
+END
+GAGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAGenome.h
+END
+GABaseGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GABaseGA.C
+END
+GADemeGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GADemeGA.C
+END
+GAArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAArray.h
+END
+GA3DBinStrGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA3DBinStrGenome.C
+END
+GAScaling.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAScaling.h
+END
+gabincvt.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gabincvt.C
+END
+GATreeGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATreeGenome.C
+END
+GAPopulation.C
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAPopulation.C
+END
+gaversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gaversion.h
+END
+makefile.vcpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/makefile.vcpp
+END
+GA1DArrayGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA1DArrayGenome.h
+END
+GATree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GATree.h
+END
+GA3DArrayGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA3DArrayGenome.h
+END
+GAStringGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAStringGenome.h
+END
+GAListGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAListGenome.C
+END
+makefile.sources
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/makefile.sources
+END
+gatypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/gatypes.h
+END
+GASStateGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASStateGA.C
+END
+GASelector.C
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GASelector.C
+END
+GAParameter.C
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAParameter.C
+END
+GAList.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GAList.h
+END
+garandom.C
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/garandom.C
+END
+GA2DBinStrGenome.C
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GA2DBinStrGenome.C
+END
+GARealGenome.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/GARealGenome.h
+END
+ga.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/ga/ga.h
+END

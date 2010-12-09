@@ -1,0 +1,39 @@
+NOTE: Most of these commands must be run as the superuser.
+
+BUILD:
+
+Build using the included make file using the following command:
+
+$ make
+
+
+INSTALL MODULE:
+
+After the build is complete the file mlbd.ko will be created.  Install the module using the following command:
+
+$ insmod ./mlbd.ko
+
+This will create the device /dev/mlbd0
+
+
+USING THE BLOCK DEVICE:
+
+In order to mount the block device it must first be formatted with a filesystem.  This can be done using the following command:
+
+$ mke2fs -m 0 /dev/mlbd0
+
+The device can then be mounted into the filesystem:
+
+$ mkdir ./mlbd   # Can be any existing directory
+$ mount /dev/mlbd0 ./mlbd
+
+Any files created in the ./mlbd directory will be stored on the block device.  The block device can be unmounted from ./mlbd using the following command:
+
+$ umount ./mlbd
+
+
+REMOVE MODULE:
+
+Before the block device can be removed it must be unmounted from the filesystem.  Once the device is unmounted the module can be removed using the following command:
+
+$ rmmod mlbd

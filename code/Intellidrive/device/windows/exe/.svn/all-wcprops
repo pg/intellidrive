@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sp09/disk_machine_learning/!svn/ver/51/trunk/code/Intellidrive/device/windows/exe
+END
+sources
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sp09/disk_machine_learning/!svn/ver/34/trunk/code/Intellidrive/device/windows/exe/sources
+END
+intellidrive.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/51/trunk/code/Intellidrive/device/windows/exe/intellidrive.c
+END
+MAKEFILE
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sp09/disk_machine_learning/!svn/ver/34/trunk/code/Intellidrive/device/windows/exe/MAKEFILE
+END
+intellidrive.rc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/34/trunk/code/Intellidrive/device/windows/exe/intellidrive.rc
+END

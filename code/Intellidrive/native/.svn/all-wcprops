@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sp09/disk_machine_learning/!svn/ver/65/trunk/code/Intellidrive/native
+END
+logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sp09/disk_machine_learning/!svn/ver/30/trunk/code/Intellidrive/native/logger.cpp
+END
+com_intellidrive_iscsi_IntellidriveBlockDeviceController.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/sp09/disk_machine_learning/!svn/ver/28/trunk/code/Intellidrive/native/com_intellidrive_iscsi_IntellidriveBlockDeviceController.h
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sp09/disk_machine_learning/!svn/ver/37/trunk/code/Intellidrive/native/build.bat
+END
+intellidrive.dll
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sp09/disk_machine_learning/!svn/ver/28/trunk/code/Intellidrive/native/intellidrive.dll
+END
+logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sp09/disk_machine_learning/!svn/ver/30/trunk/code/Intellidrive/native/logger.h
+END
+intellidrive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sp09/disk_machine_learning/!svn/ver/28/trunk/code/Intellidrive/native/intellidrive.cpp
+END

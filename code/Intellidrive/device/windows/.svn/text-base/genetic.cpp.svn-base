@@ -1,0 +1,167 @@
+/* ----------------------------------------------------------------------------
+  genetic.cpp
+  gebhard2 april 17, 2009
+
+ DESCRIPTION:
+   Example program for the SimpleGA class and 2DBinaryStringGenome class.
+This program tries to fill the 2Dgenome with alternating 1s and 0s. 
+  This example uses the default crossover (single point), default mutator
+(uniform random bit flip), and default initializer (uniform random) for the
+2D genome.
+  Notice that one-point crossover is not necessarily the best kind of crossover
+to use if you want to generate a 'good' genome with this kind of objective 
+function.  But it does work.
+---------------------------------------------------------------------------- */
+#include <ga/GAIncrementalGA.h>	// we're going to use the incremental GA
+#include <ga/GA2DArrayGenome.h> // and the 2D array genome
+//#include <ga/std_stream.h>
+//#include <stdio>
+
+using namespace std;
+
+/**
+ * This is just a test!
+ */
+int testGeneticDriveOptimizer()
+{
+	GeneticDriveOptimizer* genetic = GeneticDriveOptimizer::GetInstance();
+	genetic->optimize();
+
+	return 0;
+}
+
+GeneticDriveOptimizer::GeneticDriveOptimizer* GeneticDriveOptimizer::s_instance = NULL;
+
+GeneticDriveOptimizer::GeneticDriveOptimizer* GeneticDriveOptimizer::GetInstance()
+{
+	if( s_instance == NULL )
+	{
+		s_instance = new GeneticDriveOptimizer();
+	}
+	return( s_instance );
+}
+
+GeneticDriveOptimizer::GeneticDriveOptimizer()
+{
+  GA2DArrayGenome<int> genome(blockMap.length, 5, Objective);
+  GAIncrementalGA ga(genome);
+  ga.populationSize(POPULATION_SIZE);
+  ga.nGenerations(NUM_GENERATIONS);
+  ga.pMutation(PROB_MUTATION);
+  ga.pCrossover(PROB_CROSSOVER);
+  ga.scoreFilename(SCORE_FILENAME);
+  ga.flushFrequency(50);	// dump scores to disk every 50th generation
+}
+
+GeneticDriveOptimizer::~GeneticDriveOptimizer()
+{
+  //TODO: Clean up at disposal.
+}
+
+float GeneticDriveOptimizer::objective(GAGenome & g)
+{
+  GA2DArrayGenome<int> & genome = (GA2DArrayGenome &)g;
+  
+  int READ_RANDOM_POINTS = 0;
+  int READ_SEQUENTIAL_POINTS = 1;
+  int READ_CACHED_POINTS = 10;
+
+  BlockMap blockMap = organism.getBlockMap();
+  PrecacheBoundaryMap precacheBoundaryMap = organism.getPrecacheBoundaryMap();
+  
+  long fitness = 0;
+
+  LinkedList<Integer> cachedBlocks = new LinkedList<Integer>();
+  Set<Integer> cachedBlockSet = new HashSet<Integer>();
+  
+  AccessLogEntry previousEntry = null;
+  for(AccessLogEntry logEntry : log.getLog())
+  {
+     if(logEntry.getAccessType() == AccessType.WRITE)
+     {
+        previousEntry = null;
+        continue;
+     }
+     
+     if(previousEntry != null)
+     {
+        // Calculate idle time
+        int idleTime = logEntry.getTime() - previousEntry.getTime();            
+        idleTime = (idleTime < IDLE_WAIT_TIME) ? 0 : idleTime - IDLE_WAIT_TIME;
+
+        // Cache blocks during idle time
+
+        int blockNumber = 
+           blockMap.getPhysicalBlockNumber(previousEntry.getBlockNumber());
+        
+        int maxBlocksToPrecache = idleTime * PRECACHE_BLOCKS_PER_SECOND;
+        
+        if(maxBlocksToPrecache > PRECACHE_BLOCK_CAPACITY)
+        {
+           maxBlocksToPrecache = PRECACHE_BLOCK_CAPACITY;
+        }
+        
+        while(maxBlocksToPrecache > 0 && 
+              !precacheBoundaryMap.precacheBounaryAtBlock(blockNumber))
+        {
+           if(!cachedBlockSet.contains(blockNumber))
+           {
+              if(cachedBlocks.size() >= PRECACHE_BLOCK_CAPACITY)
+              {
+                 int victimBlock = cachedBlocks.removeLast();
+                 cachedBlockSet.remove(victimBlock);
+              }
+              
+              cachedBlocks.addFirst(blockNumber);
+              cachedBlockSet.add(blockNumber);
+           }
+
+           blockNumber++;
+           maxBlocksToPrecache--;
+        }
+
+     }
+     
+     int blockNumber = blockMap.getPhysicalBlockNumber(logEntry.getBlockNumber());
+     
+     if(cachedBlockSet.contains(blockNumber))
+     {
+        // The block was cached               
+        fitness += READ_CACHED_POINTS;
+     } else            
+     {
+        // The block was not cached
+        
+        if(previousEntry != null)
+        {
+           int previousBlockNumber = 
+              blockMap.getPhysicalBlockNumber(previousEntry.getBlockNumber());
+           
+           if(blockNumber == previousBlockNumber + 1)
+           {
+              // The read is sequential
+              fitness += READ_SEQUENTIAL_POINTS;
+           } else
+           {
+              // The read is random
+              fitness += READ_RANDOM_POINTS;
+           }            
+        } else
+        {
+           // The read is random
+           fitness += READ_RANDOM_POINTS;               
+        }
+     }                                       
+
+     previousEntry = logEntry;         
+  }
+
+  return fitness;
+}
+
+void GeneticDriveOptimizer::optimize(std::fstream* blockMap, std::fstream* precacheMap, std::fstream* accessLog)
+{
+  ga.evolve(seed);
+}
+
+

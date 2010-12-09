@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu
+END
+bitprims.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitprims.h
+END
+bitand.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitand.c
+END
+bitinvert.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitinvert.c
+END
+bitstr.C
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitstr.C
+END
+bitxor.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitxor.c
+END
+BitString.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/BitString.cc
+END
+bitcopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitcopy.c
+END
+bitlcomp.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitlcomp.c
+END
+builtin.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/builtin.cc
+END
+BitString.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/BitString.h
+END
+bitset1.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitset1.c
+END
+builtin.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/builtin.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/README
+END
+bitstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitstr.h
+END
+AllocRing.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/AllocRing.cc
+END
+AllocRing.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/AllocRing.h
+END
+bitblt.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitblt.c
+END
+bitclear.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitclear.c
+END
+bitany.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitany.c
+END
+gnuex.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/gnuex.C
+END
+bitdo1.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitdo1.h
+END
+bitcount.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitcount.c
+END
+bitdo2.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/bitdo2.h
+END
+Obstack.cc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/Obstack.cc
+END
+Obstack.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/Obstack.h
+END
+COPYING.LIB
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/COPYING.LIB
+END
+error.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/error.cc
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/gnu/makefile
+END

@@ -1,0 +1,52 @@
+We are thinking of doing this project to run at the block layer with no awareness of the filesystem.  All we would see is block access.  So, we may need to create a mapping of sorts so that we could keep a file together.
+
+DiskSim, iSCSI, Linux Block Device (potentially running on VmWare or Virtual Box) was mentioned as a way to do our demo.
+
+
+We may want to potentially look at SDD disk performance as they seem to be the next big thing in permanent storage: 
+
+SSD -- Extension for DiskSim Simulation Environment
+http://research.microsoft.com/en-us/downloads/b41019e2-1d2b-44d8-b512-ba35ab814cd4/default.aspx
+
+Machine Learning--
+
+  It boils down to Statistical Analysis.
+  Maybe think of it like a classification problem where we have groups of related blocks that should be read together, and the algorithm will determine if a block should be in a group or moved out of a group, and then will determine what should be preread.  What we have is very stateful.  Many machine learning will learn, and kind of stop there.  We want continual learning.
+
+  This is kind of similar to a cache. Cache does similar things.
+
+  One easy way to do this is to calculate probability of accessing certain blocks after accessing one block.
+
+  Machine learning can't just keep a list of the past cause that would grow infinitely.  It has to have a compact representation of that info.  That means we are going to be losing info and will have to make assumptions on imperfect data.
+
+  Overhead of our system may kill this project.  We don't want accesses to take too long and we don't want there to be a lot of data stored per block.
+  
+  Our plan is to write a new block device driver (or to modify an existing one) that will expose a new drive that will be stored on one of our existing drives that will have a certain amount of memory associated with it for the cache and potentially it will have this mapping where it will reorganize the blocks based on our usage patterns.
+  
+  The question: Are we writing the data to a file on one of our virtual drives?  Or are we writing it to a disk sim virtual disk?  That would differentiate the 2 implementations.  Disk Sim doesn't persist the data.  Can disk sim record the disk drive access time?
+  
+  We expect it to perform better for some cases, probably perform as well or maybe worse for others.  We will tie that to our evaluation plan.  What kinds of workloads are we going to test.  Discuss which work loads we think it will be better for.  Example loads: DB, run some programs, encode a video (don't think that would help), any general i/o task that people might perform.
+  
+  In the paper, mention disk caching, why it exists and how we intend to improve access times.  We're taking a different approach.
+  
+  We don't intend to have any improvements in write performance.  There's still potential benefits to having the general "I've read these blocks recently, I might read them again" kind of thing.  Mostly, we'll be replacing the read cache.
+  
+  We think that all cache does now is a look ahead type of thing.  
+  
+  One thing that is hard is balancing the benefits that you get with the amount of information that you want to store.  Many processes are CPU intensive.  And our program might slow down the CPU a little more, but with the rate CPU speed increases versus disk speed, CPU is probably better.
+  
+  Workload is another thing to concentrate.  There's a chance that our algorithm can't figure it out and it may need to step aside so instead of slowing down the process.
+  
+  Also, things that are already sequential aren't going to benefit from our program.
+  
+  We could trade capacity for speed by storing multiple instances of a block on the disk with different groups.
+  
+  Choosing the machine learning algorithm may be a difficult task.  
+  
+  Discuss existing caches for the fall short of existing approaches.
+  
+  We might find that the OS cache might get in our way.  We have to make sure it is clean.  VM may be good for this since we can take snapshots, and load that up.  DiskSim might be good for this also.
+  
+  If our approach is only good for some things...we could make sure to only use it for those things.  IE, it if is good for DBs, then we can use DBs.
+  
+  

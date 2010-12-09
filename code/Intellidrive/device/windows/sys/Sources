@@ -1,0 +1,4 @@
+TARGETNAME=intellidrive
+TARGETPATH=.\bin\$(DDKBUILDENV)
+TARGETTYPE=DRIVER
+SOURCES=intellidrive-device.c intellidrive.c windows-system-interface.c intellidrive.rc

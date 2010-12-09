@@ -1,0 +1,8 @@
+K 10
+svn:ignore
+V 40
+bin
+objfre_wxp_x86
+buildfre_wxp_x86.log
+
+END

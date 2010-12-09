@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop
+END
+genome.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/genome.h
+END
+PVMDemeGA.C
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/PVMDemeGA.C
+END
+PVMDemeGA.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/PVMDemeGA.h
+END
+genome.C
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/genome.C
+END
+slave.C
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/slave.C
+END
+master.C
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/master.C
+END
+Makefile.aimk
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/Makefile.aimk
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/README
+END
+settings.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sp09/disk_machine_learning/!svn/ver/31/trunk/code/Intellidrive/lib/galib247/examples/pvmpop/settings.txt
+END
